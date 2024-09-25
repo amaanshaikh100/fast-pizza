@@ -60,5 +60,4 @@ export const getTotalCartQuantity = (state) => state.cart.cart.reduce((sum, item
 
 export const getTotalCartPrice = (state) => state.cart.cart.reduce((sum, item) => sum + item.totalPrice, 0);
 
-
 // 'reselect'
